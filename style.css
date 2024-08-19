@@ -38,6 +38,8 @@ Main {
 section1 {
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  margin: 10px;
 }
 section1 H1 {
   font-size: 5rem;
