@@ -40,6 +40,7 @@ section1 {
   flex-direction: column;
   padding: 10px;
   margin: 10px;
+  width: 100%;
 }
 section1 H1 {
   font-size: 5rem;
@@ -52,7 +53,7 @@ section1 p {
 }
 
 section2 img {
-  width: 70vh;
+  width: 90%;
 }
 section1 h3 {
   color: rgba(147, 25, 196, 0.856);
