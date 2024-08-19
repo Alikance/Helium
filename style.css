@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgba(0, 0, 0, 0.794);
+  color: aliceblue;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  margin-right: 100px;
+}
+
+header p {
+  font-weight: bold;
+}
+
+header li:last-child {
+  margin-right: 40px;
+}
+
+Main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+section1 H1,
+H3,
+p {
+  font-size: xx-large;
+}
+section2 img {
+  width: 70vh;
+}
+section1 h3 {
+  color: rgba(147, 25, 196, 0.856);
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  border: solid black 1px;
+  background-color: black;
+  border-radius: 20px;
+  margin: 40px;
+}
+button {
+  background-color: rgb(35, 7, 175);
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+}
+.footer-left {
+  align-items: center;
+}
+
+.footer-left ul {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-right {
+  align-items: center;
+}
+.footer-right ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.footer-right LI {
+  margin-right: 100px;
+}
+.footer-right img {
+  height: 6vh;
+}
